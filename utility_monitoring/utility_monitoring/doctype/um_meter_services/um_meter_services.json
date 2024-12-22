@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-22 12:04:26.555353",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service",
+  "service_rate",
+  "provider"
+ ],
+ "fields": [
+  {
+   "fieldname": "service",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "service",
+   "options": "um Service"
+  },
+  {
+   "fetch_from": "service.base_rate",
+   "fieldname": "service_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "service_rate"
+  },
+  {
+   "fetch_from": "service.service_provider",
+   "fieldname": "provider",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Provider",
+   "options": "um Service Provider"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-22 12:54:16.529792",
+ "modified_by": "Administrator",
+ "module": "Utility Monitoring",
+ "name": "um Meter Services",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

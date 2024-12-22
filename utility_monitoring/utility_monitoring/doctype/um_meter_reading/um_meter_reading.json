@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-12-22 10:38:17.476545",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "meter",
+  "reading_date",
+  "previous_reading",
+  "current_reading",
+  "consumption",
+  "total_amount",
+  "service_breakdown"
+ ],
+ "fields": [
+  {
+   "fieldname": "previous_reading",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Previous reading"
+  },
+  {
+   "fieldname": "current_reading",
+   "fieldtype": "Float",
+   "label": "Current Reading"
+  },
+  {
+   "fieldname": "consumption",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Consumption"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total amount"
+  },
+  {
+   "fieldname": "meter",
+   "fieldtype": "Link",
+   "label": "Meter",
+   "options": "um Meter",
+   "search_index": 1
+  },
+  {
+   "fieldname": "reading_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Reading date"
+  },
+  {
+   "fieldname": "service_breakdown",
+   "fieldtype": "Table",
+   "label": "Service breakdown",
+   "options": "um Meter Readin service_breakdown"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-22 14:47:31.379208",
+ "modified_by": "Administrator",
+ "module": "Utility Monitoring",
+ "name": "um Meter Reading",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "meter",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "meter"
+}

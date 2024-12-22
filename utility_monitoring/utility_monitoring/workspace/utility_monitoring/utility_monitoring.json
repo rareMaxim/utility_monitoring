@@ -1,0 +1,81 @@
+{
+ "app": "utility_monitoring",
+ "charts": [],
+ "content": "[{\"id\":\"9tlOdScxiE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u041a\u043e\u043c\u0443\u043d\u0430\u043b\u044c\u043d\u0438\u0439 \u041e\u0431\u043b\u0456\u043a</span>\",\"col\":12}},{\"id\":\"edQKkixLD3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Address\",\"col\":3}},{\"id\":\"Jo2RgSqjXO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Provider\",\"col\":3}},{\"id\":\"dYe7y4Ok7H\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service\",\"col\":3}},{\"id\":\"jiVNG9oo7o\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meter\",\"col\":3}},{\"id\":\"Pl2_MvFlQM\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"GuBHQmuqtS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meter Type\",\"col\":3}},{\"id\":\"cQ6wFF3TJe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meter Reading\",\"col\":3}}]",
+ "creation": "2024-12-22 10:49:00.185405",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tool",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Utility Monitoring",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2024-12-22 13:48:32.629274",
+ "modified_by": "Administrator",
+ "module": "Utility Monitoring",
+ "name": "Utility Monitoring",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Address",
+   "link_to": "um Address",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Service Provider",
+   "link_to": "um Service Provider",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Meter Type",
+   "link_to": "um Meter Type",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Meter",
+   "link_to": "um Meter",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Service",
+   "link_to": "um Service",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Meter Reading",
+   "link_to": "um Meter Reading",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Utility Monitoring",
+ "type": "Workspace"
+}

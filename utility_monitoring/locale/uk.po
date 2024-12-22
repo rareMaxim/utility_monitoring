@@ -1,0 +1,298 @@
+# Ukrainian translations for Utility Monitoring.
+# Copyright (C) 2024 Maxim Sysoiev
+# This file is distributed under the same license as the Utility Monitoring project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Utility Monitoring VERSION\n"
+"Report-Msgid-Bugs-To: maks4a@gmail.com\n"
+"POT-Creation-Date: 2024-12-22 15:03+0202\n"
+"PO-Revision-Date: 2024-12-22 13:24+0202\n"
+"Last-Translator: maks4a@gmail.com\n"
+"Language: uk\n"
+"Language-Team: maks4a@gmail.com\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Header text in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "<span class=\"h4\">Комунальний Облік</span>"
+msgstr ""
+
+#. Label of the additional_rate (Currency) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Additiona rate"
+msgstr "Додатковий тариф"
+
+#. Label of the address_name (Data) field in DocType 'um Address'
+#. Label of the address (Link) field in DocType 'um Meter'
+#. Label of a shortcut in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/doctype/um_address/um_address.json
+#: utility_monitoring/utility_monitoring/doctype/um_meter/um_meter.json
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Address"
+msgstr "Адреса"
+
+#. Label of the amount (Currency) field in DocType 'um Fixed Payments'
+#: utility_monitoring/utility_monitoring/doctype/um_fixed_payments/um_fixed_payments.json
+msgid "Amount"
+msgstr "Сума"
+
+#. Label of the base_rate (Currency) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Base rate"
+msgstr "Базовий тариф"
+
+#. Label of the consumption (Float) field in DocType 'um Meter Reading'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "Consumption"
+msgstr "Споживання"
+
+#. Label of the current_reading (Float) field in DocType 'um Meter Reading'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "Current Reading"
+msgstr "Поточний показник"
+
+#. Label of the description (Text) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Description"
+msgstr "Опис"
+
+#. Label of the meter (Link) field in DocType 'um Meter Reading'
+#. Label of a shortcut in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Meter"
+msgstr "Лічильник"
+
+#. Label of the meter_id (Data) field in DocType 'um Meter'
+#: utility_monitoring/utility_monitoring/doctype/um_meter/um_meter.json
+msgid "Meter ID"
+msgstr "Номер лічильника"
+
+#. Label of the meter_name (Data) field in DocType 'um Meter Type'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_type/um_meter_type.json
+msgid "Meter Name"
+msgstr "Назва лічильника"
+
+#. Label of a shortcut in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Meter Reading"
+msgstr "Показники лічильників"
+
+#. Label of a shortcut in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Meter Type"
+msgstr "Тип лічильника"
+
+#. Label of the meter_name (Data) field in DocType 'um Meter'
+#: utility_monitoring/utility_monitoring/doctype/um_meter/um_meter.json
+msgid "Meter name"
+msgstr "Назва лічильника"
+
+#. Label of the notes (Text) field in DocType 'um Address'
+#: utility_monitoring/utility_monitoring/doctype/um_address/um_address.json
+msgid "Notes"
+msgstr "Примітка"
+
+#. Label of the owner_name (Data) field in DocType 'um Address'
+#: utility_monitoring/utility_monitoring/doctype/um_address/um_address.json
+msgid "Owner name"
+msgstr "Власник/Орендар"
+
+#. Label of the payment_date (Date) field in DocType 'um Fixed Payments'
+#: utility_monitoring/utility_monitoring/doctype/um_fixed_payments/um_fixed_payments.json
+msgid "Payment date"
+msgstr "Дата платежу"
+
+#. Label of the payment_name (Data) field in DocType 'um Fixed Payments'
+#: utility_monitoring/utility_monitoring/doctype/um_fixed_payments/um_fixed_payments.json
+msgid "Payment name"
+msgstr "Назва платежу"
+
+#. Label of the previous_reading (Float) field in DocType 'um Meter Reading'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "Previous reading"
+msgstr "Попередні показники"
+
+#. Label of the provider (Link) field in DocType 'um Meter Services'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_services/um_meter_services.json
+msgid "Provider"
+msgstr "Постачальник"
+
+#. Label of the provider_name (Data) field in DocType 'um Service Provider'
+#: utility_monitoring/utility_monitoring/doctype/um_service_provider/um_service_provider.json
+msgid "Provider name"
+msgstr "Ім'я провайдера"
+
+#. Label of the rate (Currency) field in DocType 'um Meter Type'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_type/um_meter_type.json
+msgid "Rate"
+msgstr "Тариф"
+
+#. Label of the reading_date (Datetime) field in DocType 'um Meter Reading'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "Reading date"
+msgstr "Дата показника"
+
+#. Label of a shortcut in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Service"
+msgstr "Послуга"
+
+#. Label of the service_provider (Link) field in DocType 'um Service'
+#. Label of a shortcut in the Utility Monitoring Workspace
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Service Provider"
+msgstr "Провайдер послуг"
+
+#. Label of the service_breakdown (Table) field in DocType 'um Meter Reading'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "Service breakdown"
+msgstr "Розподіл витрат"
+
+#. Label of the service_name (Link) field in DocType 'um Meter Readin
+#. service_breakdown'
+#. Label of the service_name (Data) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_readin_service_breakdown/um_meter_readin_service_breakdown.json
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Service name"
+msgstr "Назва послуги"
+
+#. Label of the service_type (Link) field in DocType 'um Service'
+#. Label of the service_type (Link) field in DocType 'um Service Provider'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+#: utility_monitoring/utility_monitoring/doctype/um_service_provider/um_service_provider.json
+msgid "Service type"
+msgstr "Тип послуги"
+
+#. Label of the services (Table) field in DocType 'um Meter'
+#: utility_monitoring/utility_monitoring/doctype/um_meter/um_meter.json
+msgid "Services"
+msgstr "Послуги"
+
+#. Name of a role
+#: utility_monitoring/utility_monitoring/doctype/um_address/um_address.json
+#: utility_monitoring/utility_monitoring/doctype/um_fixed_payments/um_fixed_payments.json
+#: utility_monitoring/utility_monitoring/doctype/um_meter/um_meter.json
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+#: utility_monitoring/utility_monitoring/doctype/um_meter_type/um_meter_type.json
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+#: utility_monitoring/utility_monitoring/doctype/um_service_provider/um_service_provider.json
+#: utility_monitoring/utility_monitoring/doctype/um_service_type/um_service_type.json
+msgid "System Manager"
+msgstr "Системний адміністратор"
+
+#. Label of the total_amount (Currency) field in DocType 'um Meter Reading'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "Total amount"
+msgstr "Сума"
+
+#. Label of the unit (Data) field in DocType 'um Meter Type'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_type/um_meter_type.json
+msgid "Unit"
+msgstr "Одиниця виміру"
+
+#. Name of a Workspace
+#: utility_monitoring/utility_monitoring/workspace/utility_monitoring/utility_monitoring.json
+msgid "Utility Monitoring"
+msgstr "Utility Monitoring"
+
+#. Label of the amount (Currency) field in DocType 'um Meter Readin
+#. service_breakdown'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_readin_service_breakdown/um_meter_readin_service_breakdown.json
+msgid "amount"
+msgstr "Сума"
+
+#. Label of the consumption (Float) field in DocType 'um Meter Readin
+#. service_breakdown'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_readin_service_breakdown/um_meter_readin_service_breakdown.json
+msgid "consumption"
+msgstr "Споживання"
+
+#. Label of the rate (Currency) field in DocType 'um Meter Readin
+#. service_breakdown'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_readin_service_breakdown/um_meter_readin_service_breakdown.json
+msgid "rate"
+msgstr "Тариф"
+
+#. Label of the service (Link) field in DocType 'um Meter Services'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_services/um_meter_services.json
+msgid "service"
+msgstr "Послуга"
+
+#. Label of the service_rate (Currency) field in DocType 'um Meter Services'
+#: utility_monitoring/utility_monitoring/doctype/um_meter_services/um_meter_services.json
+msgid "service_rate"
+msgstr ""
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_address/um_address.json
+msgid "um Address"
+msgstr ""
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_fixed_payments/um_fixed_payments.json
+msgid "um Fixed Payments"
+msgstr ""
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_meter/um_meter.json
+msgid "um Meter"
+msgstr "Лічильник"
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_meter_readin_service_breakdown/um_meter_readin_service_breakdown.json
+msgid "um Meter Readin service_breakdown"
+msgstr ""
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_meter_reading/um_meter_reading.json
+msgid "um Meter Reading"
+msgstr ""
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_meter_services/um_meter_services.json
+msgid "um Meter Services"
+msgstr ""
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_meter_type/um_meter_type.json
+msgid "um Meter Type"
+msgstr "Тип лічильника"
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "um Service"
+msgstr "Послуга"
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_service_provider/um_service_provider.json
+msgid "um Service Provider"
+msgstr "Постачальник"
+
+#. Name of a DocType
+#: utility_monitoring/utility_monitoring/doctype/um_service_type/um_service_type.json
+msgid "um Service Type"
+msgstr "Тип послуги"
+
+#. Description of the 'Service type' (Link) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Вибір із типів послуг."
+msgstr ""
+
+#. Description of the 'Service name' (Data) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Наприклад, Водопостачання\"."
+msgstr ""
+
+#. Description of the 'Base rate' (Currency) field in DocType 'um Service'
+#: utility_monitoring/utility_monitoring/doctype/um_service/um_service.json
+msgid "Основний тариф."
+msgstr ""
+

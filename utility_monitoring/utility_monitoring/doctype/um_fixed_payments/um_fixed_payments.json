@@ -1,37 +1,60 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "hash",
  "creation": "2024-12-22 11:18:18.693252",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "address",
   "payment_name",
+  "service_provider",
   "amount",
   "payment_date"
  ],
  "fields": [
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "payment_name",
    "fieldtype": "Data",
-   "label": "Payment name"
+   "in_list_view": 1,
+   "label": "Payment name",
+   "reqd": 1
   },
   {
    "fieldname": "amount",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Amount"
   },
   {
    "fieldname": "payment_date",
    "fieldtype": "Date",
    "label": "Payment date"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Link",
+   "label": "Service provider",
+   "options": "um Service Provider"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Address",
+   "options": "um Address",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-22 11:19:15.124576",
+ "modified": "2024-12-22 18:23:47.368851",
  "modified_by": "Administrator",
  "module": "Utility Monitoring",
  "name": "um Fixed Payments",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {
@@ -49,5 +72,6 @@
  ],
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "payment_name"
 }

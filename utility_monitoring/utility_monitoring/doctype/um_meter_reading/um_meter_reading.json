@@ -24,6 +24,7 @@
   {
    "fieldname": "current_reading",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Current Reading"
   },
   {
@@ -59,7 +60,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-22 14:47:31.379208",
+ "modified": "2024-12-22 15:36:04.851014",
  "modified_by": "Administrator",
  "module": "Utility Monitoring",
  "name": "um Meter Reading",

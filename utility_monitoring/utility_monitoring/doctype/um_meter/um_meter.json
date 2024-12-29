@@ -44,7 +44,7 @@
    "link_fieldname": "meter"
   }
  ],
- "modified": "2024-12-22 14:45:19.982447",
+ "modified": "2024-12-22 18:31:06.456073",
  "modified_by": "Administrator",
  "module": "Utility Monitoring",
  "name": "um Meter",
@@ -64,6 +64,7 @@
    "write": 1
   }
  ],
+ "search_fields": "meter_id",
  "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
